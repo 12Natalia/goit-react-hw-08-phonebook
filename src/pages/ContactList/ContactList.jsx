@@ -94,6 +94,7 @@ export default function Contactlist() {
               <Popconfirm
                 title="Are you sure delete this contact?"
                 okText="Yes"
+                okType="danger"
                 cancelText="No"
                 onConfirm={() => dispatch(deleteContact(id))}
               >
@@ -106,6 +107,7 @@ export default function Contactlist() {
 
           <ModalRedact
             title="Edit a contact"
+            okType="danger"
             open={isModalOpen}
             onOk={handleOk}
             onCancel={handleCancel}

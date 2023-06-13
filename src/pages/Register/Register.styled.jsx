@@ -26,6 +26,9 @@ export const SubmitButton = styled(Button)`
   margin-left: 30%;
   display: block;
   font-size: 18px;
+  color: #008000;
+  border: none;
+  background-color: #adff2f;
 `;
 
 export const InputReg = styled(Input)`

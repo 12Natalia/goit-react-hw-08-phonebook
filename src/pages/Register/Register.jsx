@@ -121,12 +121,11 @@ export default function Register() {
 
           <Label>
             {' '}
-            <SubmitButton type="primary" htmlType="submit">
+            <SubmitButton type="default" htmlType="submit">
               Register
             </SubmitButton>{' '}
             <ContLabel>
-              or <LinkToLog to="/login"> log in</LinkToLog>if you already have
-              an account{' '}
+              or <LinkToLog to="/login"> log in</LinkToLog>if you are already registered{' '}
             </ContLabel>
           </Label>
         </FormReg>
