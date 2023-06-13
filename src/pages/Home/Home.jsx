@@ -38,7 +38,7 @@ export default function Home() {
         <UnderTitle>
           In the
           <HomeLink to="/contacts">Contacts</HomeLink>
-          tab, you can add, edit, delete, and find your contacts
+          tab, you can add, edit, delete and find your contacts
         </UnderTitle>
       )}
     </Section>
