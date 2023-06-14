@@ -2,17 +2,16 @@ import { GlobalStyle } from './GlobalStyle';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect, lazy } from 'react';
+import { useEffect } from 'react';
 import { refreshUser } from 'Redux/Authorization/operations';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { ToastContainer } from 'react-toastify';
 import { Spiner } from 'components/LoadingIndicator';
-
-const Register = lazy(() => import('../pages/Register/Register'));
-const Home = lazy(() => import('../pages/Home/Home'));
-const Login = lazy(() => import('../pages/Login/Login'));
-const Contactlist = lazy(() => import('../pages/ContactList/ContactList'));
+import Register from '../pages/Register/Register';
+import Home from '../pages/Home/Home';
+import Login from '../pages/Login/Login';
+import Contactlist from '../pages/ContactList/ContactList';
 
 export const App = () => {
   const dispatch = useDispatch();
