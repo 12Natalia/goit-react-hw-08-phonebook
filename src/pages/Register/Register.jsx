@@ -37,17 +37,13 @@ export default function Register() {
           form={form}
           name="register"
           onFinish={onFinish}
-          initialValues={{
-            residence: ['zhejiang', 'hangzhou', 'xihu'],
-            prefix: '86',
-          }}
           scrollToFirstError
         >
           <TitleReg>Register new user</TitleReg>
           <Label
             name="name"
             label="Name"
-            tooltip="What do you want others to call you?"
+            tooltip="The first letter of the name will be in your avatar"
             rules={[
               {
                 required: true,
@@ -125,7 +121,8 @@ export default function Register() {
               Register
             </SubmitButton>{' '}
             <ContLabel>
-              or <LinkToLog to="/login"> log in</LinkToLog>if you are already registered{' '}
+              or <LinkToLog to="/login"> log in</LinkToLog>if you are already
+              registered{' '}
             </ContLabel>
           </Label>
         </FormReg>
