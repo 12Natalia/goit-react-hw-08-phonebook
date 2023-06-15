@@ -6,13 +6,11 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #008000;
+  body {    
+  color: #008000;
   }
   section {
+    margin:0 auto;
     padding: 0 15px;
     width: 1000px;
   }

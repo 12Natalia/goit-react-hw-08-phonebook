@@ -50,7 +50,7 @@ export const AppBar = () => {
             )}
           </div>
         </Nav>
-        <div style={{ position: 'fixed', bottom: '0', right: '40%' }}>
+        <div style={{ position: 'fixed', bottom: '0', right: '0' }}>
           <img
             src={
               ' https://1.bp.blogspot.com/-WdVXaAz12Hk/YRKSaDor1NI/AAAAAAAAEVI/t3iPbaGE7GQQrmv2SwNsVRma7bw6ykRiwCLcBGAsYHQ/s0/%25D0%259A%25D0%25BE%25D1%2582%25D0%25B8%25D0%25BA%2B4.gif'
